@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Calculator</h1>
+    <div class="calculator">
+      <input type="text" id="a_value" />
+      <input type="text" id="b_value" />
+      <p>
+        <button type="button" onclick="calculate('+')">+</button>
+        <button type="button" onclick="calculate('-')">-</button>
+        <button type="button" onclick="calculate('*')">*</button>
+        <button type="button" onclick="calculate('/')">/</button>
+      </p>
+      <p id="result"></p>
+      <button onclick="reset()">Reset</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
